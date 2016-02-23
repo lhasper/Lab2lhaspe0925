@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Programmer: Lee Hasper
+* Class ID: lhaspe0925
+* Lab 2
+* CIS 2610: Business Mobile Programming
+* Spring 2016
+* Due date: 03/01/2016
+* Date completed: 02/20/2016
+*************************************
+* Program Explanation
+* This is a prototype shopping application for a Mobile device accessory wholesaler.
+* It allows a buyer to tap on an item they would like to purchase, input the quantity to buy,
+* and submit the order.
+* If the order has an quantity error, the user immediately sees a toast Error message indicating what went wrong.
+* Their quantity input is also deleted to further convey the need to input a proper quantity.
+ * Once the proper quantity is input a pre-programmed text view displays a completed order message.
+ * This message includes the name of the product, the quantity ordered, and subtotal for the purchase.
+ * If the buyer decides to purchase another item, the order message is cleared from the screen.
+ * The user now has a fresh canvas in which to begin a new purchase.
+*************************************-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wmich.edu.lab2lhaspe0925">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icbattery"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

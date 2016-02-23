@@ -1,0 +1,13 @@
+<resources>
+    <string name="txtPhoneWholesaleTitle">Choose Your Cable</string>
+    <string name="rdobtntxtILightning">Apple 6ft Lightning Cable  $29.99</string>
+    <string name="rdobtnLightning3">Apple 3ft Lightning Cable  $19.99</string>
+    <string name="rdobtnMicroUsb3">Samsung 6ft Micro Usb Cable $24.99</string>
+    <string name="rdobtnMicro3">Samsung 3ft Micro Usb Cable  $12.99</string>
+    <string name="txtHintQty">Enter Quantity Between 3 and 24</string>
+    <string name="QtyDisc">User enters the Quantity desired here with a minimum of 3 and maximum of 24 units</string>
+    <string name="txtQuantityDesired">Quantity Needed</string>
+    <string name="PriceMessage">Displays the subtotal of the order</string>
+    <string name="btnCheckOut">Check Out</string>
+    <string name="app_name">Discount Cable Depot</string>
+</resources>
